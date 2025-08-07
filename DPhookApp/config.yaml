@@ -1,0 +1,25 @@
+# 微信配置
+wechat:
+  # 微信可执行文件路径，如果为空则使用默认安装路径
+  exe_path: "C:\\Users\\Administrator\\Desktop\\gitea\\wechat_3.6.0.18\\WeChat.exe"
+  # 微信版本，如果为空则自动检测
+  version: "3.6.0.18"
+
+# 服务器配置
+server:
+  host: "0.0.0.0"
+  port: 8002
+  debug: false
+
+# 日志配置
+logging:
+  level: "DEBUG"
+  file: ""
+
+# 认证配置
+auth:
+  # 是否启用认证
+  enabled: true
+  # API密钥配置
+  api_keys:
+    admin: "dpyyds" 
