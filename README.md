@@ -43,10 +43,10 @@
 git clone https://github.com/dpyyd/DPhook.git
 
 ```
-```
+
 # 下载通讯软件
 [点击下载](dpbot.net/upload/wechat_3.6.0.18.zip)
-```
+
 ### 2. 配置文件
 
 编辑 `config.yaml` 配置路径和认证信息：
