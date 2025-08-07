@@ -2,7 +2,7 @@
 
 基于 **FastAPI** 的自动化接口服务，将 `DPhook` 库完整封装成 REST API，支持实时消息推送、配置管理等功能。
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
 [![WebSocket](https://img.shields.io/badge/WebSocket-Real--time-orange.svg)](https://websockets.readthedocs.io/)
 [![Auth](https://img.shields.io/badge/Auth-Bearer-red.svg)](#)
@@ -43,7 +43,10 @@
 git clone https://github.com/dpyyd/DPhook.git
 
 ```
-
+```
+# 下载通讯软件
+点击下载[dpbot.net/upload/wechat_3.6.0.18.zip ]
+```
 ### 2. 配置文件
 
 编辑 `config.yaml` 配置路径和认证信息：
